@@ -39,6 +39,8 @@ uint16_t delay = 0;
 DeviceInfo keyman64;
 DeviceInfo usbasp;
 
+extern bool usb_quiet;
+
 //-----------------------------------------------------------------------------
 // Utility functions for parsing
 //-----------------------------------------------------------------------------

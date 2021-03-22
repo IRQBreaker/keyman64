@@ -9,8 +9,6 @@
 #define USBASP_VID 0x16c0
 #define USBASP_PID 0x05dc
 
-bool usb_quiet;
-
 typedef struct {
   char path[4096];
   char role[64];
